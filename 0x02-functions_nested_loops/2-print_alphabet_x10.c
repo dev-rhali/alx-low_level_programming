@@ -1,18 +1,18 @@
 #include "main.h"
 
 /** 
- * main - print alphabet x10
+ * print alphabet - Make the alphabet
  *
- * Return Always 0 Success
+ * Return: void
  */
 
 void print_alphabet_x10(void)
 {
-	int i , j;
+	int i, j;
 
-	for( i = 0 ; i <= 9 ; i++ ) 
+	for (i = 0 ; i <= 9 ; i++) 
 	{
-		for ( j = 'a' ; j <= 'z' ; j++ )
+		for (j = 'a' ; j <= 'z' ; j++)
 		{
 			_putchar(j);
 		}
